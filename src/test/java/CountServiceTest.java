@@ -5,7 +5,7 @@ import org.junit.jupiter.api.Test;
 public class CountServiceTest {
 
     @Test
-    public void shouldCalcExact() {
+    public void CountingTheMonthsOfRest_1() {
         CountService service = new CountService();
 
         int expected = 3;
@@ -15,7 +15,7 @@ public class CountServiceTest {
     }
 
     @Test
-    public void shouldCalcInexact() {
+    public void CountingTheMonthsOfRest_2() {
         CountService service = new CountService();
 
         int expected = 2;
